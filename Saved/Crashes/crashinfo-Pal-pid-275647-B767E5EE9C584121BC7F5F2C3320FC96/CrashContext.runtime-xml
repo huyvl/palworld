@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>10601BB9E93540B5AF7597A0C20B3F4E</ExecutionGuid>
+		<CrashGUID>UECC-Linux-8EC023A5E88644F9915DA6A3D34D6C00_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>275647</ProcessId>
+		<SecondsSinceStart>61841</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>04347614C028445A8EDFA2250608E31A-000003E9</MachineId>
+		<LoginId>04347614c028445a8edfa2250608e31a-000003e9</LoginId>
+		<HostName>MonLinux</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-10600 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3070 (NVIDIA UNIX x86_64 Kernel Module 535.</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Ubuntu 22.04.3 LTS</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.5.0-15-generic</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>33417170944</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>2147479552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>7771697152</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>1085960192</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>22814003200</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>24964407296</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>29828886528</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>32456564736</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>PalServer-Linux-Test!StaticConstructObject_Internal(FStaticConstructObjectParameters const&amp;) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:4188]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;APalWeaponBase::GetSoundSlot(TFunction&lt;void (UPalSoundSlot*)&gt;)::$_6, void (TSubclassOf&lt;UPalSoundSlot&gt;)&gt;::Call(void*, TSubclassOf&lt;UPalSoundSlot&gt;&amp;) [D:/works/repos/Pal_SVN/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;TSharedPtr&lt;FStreamableHandle, (ESPMode)1&gt; UPalAssetStreamableManager::RequestAsyncLoad&lt;UPalSoundSlot&gt;(TSoftClassPtr&lt;UPalSoundSlot&gt;, TFunction&lt;void (TSubclassOf&lt;UPalSoundSlot&gt;)&gt;, int, bool, bool)::&apos;lambda&apos;(UObject*), void (UObject*)&gt;::Call(void*, UObject*&amp;) [D:/works/repos/Pal_SVN/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!FPalAssetLoadedSingle::OnInvokeLoadedDelegate() [G:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.h:45]
+PalServer-Linux-Test!UPalAssetStreamableManager::Tick(float) [G:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.cpp:122]
+PalServer-Linux-Test!FTickableGameObject::TickObjects(UWorld*, int, bool, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Tickable.cpp:150]
+PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1606]
+PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775]
+PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363]
+PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x29d8f)
+libc.so.6!__libc_start_main(+0x7f)
+PalServer-Linux-Test!_start()
+</CallStack>
+		<PCallStack>PalServer-Linux-Test 0x0000000000200000 + 6d9785f PalServer-Linux-Test 0x0000000000200000 + 68ad247 PalServer-Linux-Test 0x0000000000200000 + 6551fbf PalServer-Linux-Test 0x0000000000200000 + 65b9d59 PalServer-Linux-Test 0x0000000000200000 + 659273f PalServer-Linux-Test 0x0000000000200000 + a0796ba PalServer-Linux-Test 0x0000000000200000 + 9b51de4 PalServer-Linux-Test 0x0000000000200000 + 998a654 PalServer-Linux-Test 0x0000000000200000 + 3d327be PalServer-Linux-Test 0x0000000000200000 + 3d338ca PalServer-Linux-Test 0x0000000000200000 + a77e718 libc.so 0x00007fc229a00000 + 29d90 libc.so 0x00007fc229a00000 + 29e40 PalServer-Linux-Test 0x0000000000200000 + 3d31029</PCallStack>
+		<PCallStackHash>E0D3D6966E59BDD269AB0E657702F3FE40135F19</PCallStackHash>
+		<TimeOfCrash>638437765988210000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Ubuntu 22.04.3 LTS 6.5.0-15-generic 64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Core(TM) i5-10600 CPU @ 3.30GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>11</CrashSignal>
+		<CrashSignalName>Segmentation fault</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>3</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.4.1&quot;, &quot;callstackhash&quot;: &quot;4231D5F6F596F081BCF52CB054E362B12D52C156&quot;,&quot;revision&quot;: &quot;47558&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;players&quot;: &quot;2&quot;, &quot;session_id&quot;: &quot;steam_null_1708117957&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
